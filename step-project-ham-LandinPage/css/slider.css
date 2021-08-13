@@ -1,0 +1,80 @@
+.slick-slide {
+  outline: none;
+}
+.slick-list {
+  overflow: hidden;
+  text-align: center;
+}
+.slick-track {
+  display: flex;
+}
+.people-slider.slick-slider {
+  position: relative;
+}
+.people-slider.slick-slider {
+  position: relative;
+  margin: 0 auto;
+}
+.people-slider .slick-active {
+  outline: none;
+}
+.people-slider .slick-arrow {
+  position: absolute;
+  bottom: 30px;
+  font-size: 0;
+  width: 10px;
+  height: 15px;
+  padding: 10px 11px;
+  border: 1px solid #bbbbbb;
+  outline: none;
+  cursor: pointer;
+}
+.people-slider .slick-arrow.slick-prev:hover {
+  background-color: #18cfab;
+}
+.people-slider .slick-arrow.slick-prev {
+  left: 345px;
+  background: url(../img/svg/pointer.svg) center center no-repeat;
+  transform: rotate(180deg);
+}
+.people-slider .slick-arrow.slick-next {
+  right: 315px;
+  background: url(../img/svg/pointer.svg) center center no-repeat;
+}
+.people-slider .slick-arrow.slick-prev:hover {
+  background-color: #18cfab;
+}
+.people-slider .slick-arrow.slick-next:hover {
+  background-color: #18cfab;
+}
+.people-slider .slick-dots {
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.people-slider .slick-active {
+  transform: translateY(-18px);
+  transition: transform 0.8s ease;
+}
+.people-slider .slick-dots button {
+  font-size: 0px;
+  border-radius: 50%;
+  border: 5px solid rgba(31, 218, 181, 0.2);
+  outline: none;
+  margin-left: 35px;
+  width: 66px;
+  height: 65px;
+}
+.people-slider .slick-dots button#slick-slide-control00 {
+  background: url(../img/people/dmytriy.png) center center / cover no-repeat;
+}
+.people-slider .slick-dots button#slick-slide-control01 {
+  background: url(../img/people/olesya.png) center center / cover no-repeat;
+}
+.people-slider .slick-dots button#slick-slide-control02 {
+  background: url(../img/people/Ali.png) center center / cover no-repeat;
+}
+.people-slider .slick-dots button#slick-slide-control03 {
+  background: url(../img/people/tatyna.png) center center / cover no-repeat;
+}

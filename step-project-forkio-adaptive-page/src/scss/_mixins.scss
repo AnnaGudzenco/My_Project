@@ -1,0 +1,44 @@
+@mixin reset-button {
+  padding: 0;
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width} ) {
+    @content;
+  }
+}
+
+
+%link-style {
+  background-color: $violet-color-light;
+  border-radius: 40px;
+  font-family: $font-primary;
+  font-weight: 700;
+  color: $white;
+  text-decoration: none;
+  border: 2px solid #8d81ac;
+  &:hover {
+    background-color: $white;
+    color: $violet-color-light;
+  }
+}
+
+%position-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+%prices-item-heading {
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+@keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+@keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+
+@keyframes border-change {
+  0% {
+    border: 12px solid rgba(133, 247, 224, 0.1);
+  }
+  50% {
+    border: 12px solid rgba(31, 218, 181, 0.4);
+  }
+  100% {
+    border: 12px solid rgba(31, 218, 181, 0.1);
+  }
+}

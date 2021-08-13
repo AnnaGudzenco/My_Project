@@ -1,0 +1,142 @@
+.reviews {
+  padding: 57px 0 0;
+  background: url(../img/reviews/bg/bg_mobil.jpg) center center / cover
+    no-repeat;
+    background-position: bottom;
+  @include desktop {
+    background: url(../img/reviews/bg/bg_desktop.jpg) center bottom / cover
+      no-repeat;
+      padding-bottom: 31px;
+      
+  }
+
+  &__wrapper {
+    margin-top: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    @include tablet {
+      margin-top: 81px;
+    }
+  }
+
+  &__item {
+    text-align: center;
+    width: 260px;
+    margin-bottom: 37px;
+    @include tablet {
+      width: 180px;
+      margin-bottom: 53px;
+    }
+    @media (min-width: $tablet-width+20px) {
+      width: 240px;
+    }
+    @media (min-width: $tablet-width+200px) {
+      width: 300px; 
+    }
+    @media (min-width: $tablet-width+310px) {
+      width: 360px; 
+    }
+    @include desktop {
+      margin-bottom: 85px;
+      width: 300px; 
+    }
+    @media (min-width: $desktop-width+107px) {
+      width: 348px; 
+    }
+  }
+
+  &__logo {
+    height: 64px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  &__text {
+    margin-top: 20px;
+    font-family: $font-secondary;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+  }
+
+  &__description {
+    font-family: $font-secondary;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: $violet-color-for-reviews;
+    padding: 0 11%;
+  
+    &:after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 100%;
+      margin-top: 22px;
+      background: $violet-bg-reviews;
+      margin-left: auto;
+      margin-right: auto;
+      @include tablet {
+        margin-top: 20px;
+        width: 85%;
+      }
+      @include desktop {
+        width: 75%;
+      }
+    }
+  }
+}
+.section__header{
+  font-family: $font-primary;
+  margin: 0 auto;
+  text-align: center;
+  color: $white;
+  font-weight: 700;
+  &--reviews {
+    width: 300px;
+    font-size: 36px;
+    line-height: 48px;
+    
+    @include tablet {
+      width: 100%;
+      font-size: 28px;
+      line-height: 30px;
+    }
+    @media (min-width: $tablet-width+59px) {
+      font-size: 32px;
+      line-height: 35px;
+    }
+    @media (min-width: $tablet-width+129px) {
+      font-size: 34px;
+      line-height: 40px;
+    }
+    @media (min-width: $tablet-width+179px) {
+      font-size: 37px;
+      line-height: 44px;
+    }
+    @media (min-width: $tablet-width+219px) {
+      font-size: 42px;
+    }
+    @include desktop {
+      font-size: 48px;
+      line-height: 50px;
+    }  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

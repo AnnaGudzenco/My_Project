@@ -1,0 +1,28 @@
+.cart-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-count {
+  font-size: 27px;
+  font-style: italic;
+  margin-left: 5px;
+}
+.empty-cart {
+  margin: 0 auto;
+  padding: 40px;
+  width: 400px;
+  margin-top: 150px;
+  background-color: #fff;
+  font-size: 35px;
+  color: red;
+  border-radius: 5px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+}
+.cart-img {
+  background: url(./shopping-cart.png) center center / cover no-repeat;
+  width: 60px;
+  height: 60px;
+}

@@ -1,0 +1,241 @@
+.advantages {
+    @include desktop {
+        margin-top: 70px;
+        background-color: $bg-for-advantages;
+        width: 100%;
+    }
+}
+
+.advantages__pc {
+    @include desktop {
+        display: grid;
+        grid-template-columns: 530px 1fr;
+        grid-template-rows: 150px 1fr;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.advantages__heading {
+    margin-top: 120px;
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    width: 230px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: $violet-color-light;
+    &::before {
+        content: "<";
+    }
+    &::after {
+        content: ">";
+    }
+    @include tablet {
+        width: 100%;
+        font-size: 37px;
+        line-height: 44px;
+    }
+    @media (min-width: 482px) {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    @media (min-width: 494px) {
+        font-size: 39px;
+        line-height: 44px;
+    }
+    @media (min-width: 506px) {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    @media (min-width: 530px) {
+        width: 506px;
+        font-size: 42px;
+        line-height: 44px;
+    }
+    @include desktop {
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 95px;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    @media (min-width: 999px) {
+        font-size: 37px;
+    }
+    @media (min-width: 1012px) {
+        font-size: 38px;
+    }
+    @media (min-width: 1034px) {
+        font-size: 39px;
+    }
+    @media (min-width: 1046px) {
+        font-size: 40px;
+    }
+    @media (min-width: 1058px) {
+        font-size: 41px;
+    }
+    @media (min-width: 1070px) {
+        font-size: 42px;
+    }
+    @media (min-width: 1082px) {
+        font-size: 43px;
+    }
+    @media (min-width: 1094px) {
+        font-size: 44px;
+    }
+    @media (min-width: 1106px) {
+        font-size: 45px;
+    }
+    @media (min-width: 1158px) {
+        font-size: 48px;
+    }
+}
+
+.advantages__items {
+    @include tablet {
+        margin-top: 50px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @include desktop {
+        width: 530px;
+        order: -1;
+        grid-row: 1 / span 2;
+        margin-top: 98px;
+        padding-bottom: 71px;
+        margin-left: 25px;
+    }
+}
+
+.advantages__item {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    @include tablet {
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        
+        &:nth-child(2) {
+            margin-top: 62px;
+        }
+        &:nth-child(3) {
+            margin-top: 62px;
+        }
+        &:nth-child(4) {
+            margin-top: 62px;
+        }
+    }
+}
+
+.advantages__item-logo {
+    margin-top: 40px;
+    @include tablet {
+        margin-top: 0px;
+    }
+}
+
+.advantages__item-logo--book {
+    margin-left: 20px;
+    @include tablet {
+        margin-left: 0px;
+        margin-right: 23px;
+    }
+}
+
+.advantages__item-logo--tool {
+    @include tablet {
+        margin-right: 44px;
+    }
+}
+.advantages__item-logo--stuff {
+    @include tablet {
+        margin-right: 74px;
+    }
+}
+.advantages__item-logo--clock {
+    @include tablet {
+        margin-right: 63px;
+    }
+}
+
+.advantages__item-singature {
+    margin-top: 23px;
+    @include tablet {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+}
+
+.advantages__item-heading {
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: $text-color-dark;
+    margin-left: auto;
+    margin-right: auto;
+    @include tablet {
+        line-height: 21px;
+        display: flex;
+        justify-content: start;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.advantages__item-text {
+    font-family: $font-secondary;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    width: 271px;
+    color: $text-color-light;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    @include tablet {
+        width: auto;
+        max-width: 500px;
+    }
+}
+
+.advantages__img-tel {
+    margin-top: 64px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6px;
+    @include tablet {
+        display: none;
+    }
+}
+
+.advantages__img-pc {
+    display: none;
+    @include tablet {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1px;
+    }
+    @include desktop {
+        margin-top: 0px;
+        padding-bottom: 33px;
+    }
+}
+
+.advantages__img-pc-item {
+    @include tablet {
+        width: 100%;
+    }
+}
