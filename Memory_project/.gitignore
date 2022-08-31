@@ -1,0 +1,7 @@
+.vscode
+.idea
+*.log
+.node_modules/
+thumbs.db
+.idea/*.xml
+.idea/*.iml
